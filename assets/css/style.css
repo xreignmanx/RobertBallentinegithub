@@ -35,7 +35,7 @@ body {
     /* Typography */
     font-size: 36px;
     font-weight: bold;
-    color: #041f79);
+    color: #b1bee6;
   
     /* Visual */
     /* background: #2781ca; */
@@ -54,7 +54,7 @@ body {
   /* media query for nav background color change */
   @media only screen and (max-width: 767px) {
     .navbar-header {
-      background-color: #4aaaa5;
+      background-color: rgb(87, 77, 230);
     }
   }
   /* END NAV */
@@ -93,7 +93,7 @@ body {
     height: 60px;
   
     /* Visual */
-    background-color: #666;
+    /* background-color: #666; */
   }
   
   .text-muted-footer {
@@ -101,7 +101,7 @@ body {
     margin-top: 15px;
   
     /* Typography */
-    color: #fff;
+    /* color: #fff; */
   }
   
   .two-toned-footer-color {
@@ -110,7 +110,7 @@ body {
     padding-top: 3px;
   
     /* Visual */
-    background-color: #4aaaa5;
+    /* background-color: #4aaaa5; */
   }
   /* END FOOTER */
   /* --- END STYLES FOR ALL PAGES --- */
@@ -176,6 +176,12 @@ body {
 
   #train {
       background-size: 100% 100%;
+  }
+  #info {
+      border-style: solid;
+      border-width: 5px;
+      display: flex;
+      justify-content: space-around;
   }
   
   /* END CONTACT FORM PAGE */
